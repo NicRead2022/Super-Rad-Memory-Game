@@ -25,4 +25,5 @@ Welcome to the Harry Potter Matching Game! There are 8 cards totally with 4 matc
 ## CREDITS
 ### Harry Potter Images [Parade](https://parade.com/1294995/hannah-southwick/harry-potter-special-hbo-max/)
 ### Hermonione Granger Images [Medium](https://medium.com/@alissaphillips/character-spotlight-hermione-granger-7b4c49832c30)
-### Harry Potter Title Image []
+### Harry Potter Title Image [1000 Logos](https://1000logos.net/harry-potter-logo/)
+### README.md format guide [Github](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
