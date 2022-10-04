@@ -38,9 +38,9 @@ const checkMatch = () => {
 if(userSelection.length >= 2){
   console.log(userSelection[0].textContent, userSelection[1].textContent)
   if(userSelection[0].textContent === userSelection[1].textContent){
-    console.log("match")
+    alert("match")
   } else{
-    console.log("doesnt match")
+    alert("doesnt match")
   }
 
 }
@@ -51,32 +51,38 @@ function myReveal00(){
   R0C0.textContent = table[0][0].text
   userSelect(R0C0)
   checkMatch()
+ 
   
 }
 function myReveal01(){
   R0C1.textContent = table[0][1].text
   userSelect(R0C1)
   checkMatch()
+
 }
 function myReveal10(){
   R1C0.textContent = table[1][0].text
   userSelect(R1C0)
   checkMatch()
+
 }
 function myReveal11(){
   R1C1.textContent = table[1][1].text
   userSelect(R1C1)
   checkMatch()
+  
 } 
 function myReveal20(){
   R2C0.textContent = table[2][0].text
   userSelect(R2C0)
   checkMatch()
+
 }
 function myReveal21(){
   R2C1.textContent = table[2][1].text
   userSelect(R2C1)
   checkMatch()
+
 }
 
 const userSelect = (el) => {
@@ -84,7 +90,17 @@ userSelection.push(el)
 
 }
 
-
-
-
-
+// const matchPair = () => {
+//   if (userSelection[0].textContent === userSelection[0].textContent){
+//     alert("MATCH");
+// }
+// else if (userSelection[0].textContent === userSelection[1].textContent){
+//   alert("MATCH");
+// }
+// else if (userSelection[1].textContent === userSelection[0].textContent){
+//   alert("MATCH");
+// }
+// else if (userSelection[1].textContent === userSelection[1].textContent){
+//   alert("MATCH");
+// }
+// }

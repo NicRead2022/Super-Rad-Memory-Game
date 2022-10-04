@@ -4,12 +4,13 @@ body {
 }
 
 h1 {
-  color: palevioletred;
+  color: red;
+  font-family: cursive;
 }
 .grid-container {
   display: grid;
   grid-template-columns:auto auto;
-  background-color: goldenrod;
+  background-color: gray;
   padding: 100px;
   gap: 10px;
  
