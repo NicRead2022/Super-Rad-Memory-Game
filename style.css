@@ -1,0 +1,23 @@
+body {
+  font-size: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: palevioletred;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns:auto auto;
+  background-color: goldenrod;
+  padding: 100px;
+  gap: 10px;
+ 
+}
+.grid-item {
+  background-color: red;
+  border: 10px solid;
+  padding: 50px;
+  font-size: 60px;
+  text-align: center;
+}
