@@ -43,8 +43,13 @@ if(userSelection.length >= 2){
     console.log(userSelection)
   } else{
     alert("doesnt match")
-    userSelection[0].textContent = ""
-    userSelection[1].textContent = ""
+    //refactored following code to be a function instead of hard code
+    R0C0.textContent = 1
+    R0C1.textContent = 2
+    R1C0.textContent = 3
+    R1C1.textContent = 4
+    R2C0.textContent = 5
+    R2C1.textContent = 6
     userSelection.length = 0
   }
 

@@ -1,10 +1,15 @@
 body {
   font-size: 20px;
   text-align: center;
+  background-color: rgb(181, 175, 175);
 }
 
 h1 {
   color: red;
+  font-family: cursive;
+}
+h2 {
+  font-size: 20px;
   font-family: cursive;
 }
 /* .grid-container {
@@ -24,8 +29,39 @@ h1 {
 } */
 .grid-item {
   background-color: red;
-  border: 20px solid;
+  border: 10px solid;
   padding: 10px 10px;
   font-size: 60px;
   text-align: center;
 }
+
+/* .container {
+  display: grid;
+  grid-template: 1.6em 1.6em 1.6em / 1fr 1fr 1fr;
+  grid-template: repeat(3, 1.6em) / repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+#one {
+}
+
+#two {
+}
+
+#three {
+}
+
+#four {
+}
+
+#five {
+}
+
+#six {
+}
+
+#seven {
+}
+
+#eight {
+} */
