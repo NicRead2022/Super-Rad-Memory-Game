@@ -7,18 +7,25 @@ h1 {
   color: red;
   font-family: cursive;
 }
-.grid-container {
+/* .grid-container {
   display: grid;
   grid-template-columns:auto auto;
   background-color: gray;
-  padding: 100px;
+  padding: 50px;
   gap: 10px;
- 
-}
+  column-gap: 50px;
+  
+} */
+
+/* .flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
 .grid-item {
   background-color: red;
-  border: 10px solid;
-  padding: 50px;
+  border: 20px solid;
+  padding: 10px 10px;
   font-size: 60px;
   text-align: center;
 }

@@ -39,8 +39,13 @@ if(userSelection.length >= 2){
   console.log(userSelection[0].textContent, userSelection[1].textContent)
   if(userSelection[0].textContent === userSelection[1].textContent){
     alert("match")
+    userSelection.length = 0
+    console.log(userSelection)
   } else{
     alert("doesnt match")
+    userSelection[0].textContent = ""
+    userSelection[1].textContent = ""
+    userSelection.length = 0
   }
 
 }
@@ -90,17 +95,3 @@ userSelection.push(el)
 
 }
 
-// const matchPair = () => {
-//   if (userSelection[0].textContent === userSelection[0].textContent){
-//     alert("MATCH");
-// }
-// else if (userSelection[0].textContent === userSelection[1].textContent){
-//   alert("MATCH");
-// }
-// else if (userSelection[1].textContent === userSelection[0].textContent){
-//   alert("MATCH");
-// }
-// else if (userSelection[1].textContent === userSelection[1].textContent){
-//   alert("MATCH");
-// }
-// }
