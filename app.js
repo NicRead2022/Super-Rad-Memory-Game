@@ -22,7 +22,7 @@ const rowA = [cardHP,cardHG]
 const rowB = [cardHG,cardRW]
 const rowC = [cardHP,cardRW]
 const table = [rowA, rowB, rowC]
-const userSelection = []
+let userSelection = []
 const test = table[2][1].text
 console.log (table)
 console.log (test)
@@ -38,11 +38,11 @@ const checkMatch = () => {
 if(userSelection.length >= 2){
   console.log(userSelection[0].textContent, userSelection[1].textContent)
   if(userSelection[0].textContent === userSelection[1].textContent){
-    alert("match")
+    alert("MATCH")
     userSelection.length = 0
     console.log(userSelection)
   } else{
-    alert("doesnt match")
+    alert("NOT A MATCH")
     //refactored following code to be a function instead of hard code
     R0C0.textContent = 1
     R0C1.textContent = 2
@@ -95,8 +95,8 @@ function myReveal21(){
 
 }
 
-const userSelect = (el) => {
-userSelection.push(el)
+const userSelect = (selection) => {
+userSelection.push(selection)
 
 }
 
