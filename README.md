@@ -31,6 +31,6 @@ Welcome to the Harry Potter Matching Game! There are 6 cards total with 3 matche
 ### Harry Potter Title Image [1000 Logos](https://1000logos.net/harry-potter-logo/)
 ### README.md Format Guide [Github](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 ***
-### TECNOLOGIES 
+### TECHNOLOGIES 
 ### Javascript
 ### HTML
