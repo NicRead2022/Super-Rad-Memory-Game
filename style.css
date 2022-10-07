@@ -1,12 +1,15 @@
 body {
   font-size: 20px;
   text-align: center;
-  background-color: rgb(181, 175, 175);
-  background-image: url('https://d.newsweek.com/en/full/1662542/harry-potter-netflix.png');
-  background-size: 100% 35% ;
+  background-color: black;
+  background-image: url(https://wallpaper.dog/large/964111.png);
+  background-size: contain;
+  background-repeat: no-repeat; 
+  
 }
-
-
+url {
+  object-fit: contain;
+}
 h1 {
   color: #800020;
   font-family: cursive;
@@ -21,17 +24,10 @@ h2 {
   display: grid;
   grid-template-columns:auto auto;
   background-color: gray;
-  padding: 50px;
+  padding: 40px;
   gap: 10px;
   column-gap: 50px;
-  
 }
-
-/* .flex-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-} */
 .grid-item {
   background-color: #800020;
   border: 10px solid;
@@ -39,34 +35,3 @@ h2 {
   font-size: 60px;
   text-align: center;
 }
-
-/* .container {
-  display: grid;
-  grid-template: 1.6em 1.6em 1.6em / 1fr 1fr 1fr;
-  grid-template: repeat(3, 1.6em) / repeat(3, 1fr);
-  grid-gap: 10px;
-}
-
-#one {
-}
-
-#two {
-}
-
-#three {
-}
-
-#four {
-}
-
-#five {
-}
-
-#six {
-}
-
-#seven {
-}
-
-#eight {
-} */
