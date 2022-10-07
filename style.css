@@ -23,7 +23,7 @@ h2 {
 .grid-container {
   display: grid;
   grid-template-columns:auto auto;
-  background-color: gray;
+  background-color: #deb887;
   padding: 40px;
   gap: 10px;
   column-gap: 50px;
