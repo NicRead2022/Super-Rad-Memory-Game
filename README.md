@@ -18,7 +18,7 @@ Surge
 
 ### Game Overview ###
 ***
-Welcome to the Harry Potter Matching Game! There are 8 cards totally with 4 matches between them. Your goal is to get the most matches by remembering where each charecter is and finding its match. The person with the most matches at the end wins! May the best Muggle win!
+Welcome to the Harry Potter Matching Game! There are 6 cards total with 3 matches between them. Your goal is to get the most matches by remembering where each charecter is and finding its match. The person with the most matches at the end wins! May the best Muggle win!
 
 ![Image](https://parade.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_1240/MTkwNTgxMzk0NTAxNjc0ODc2/harry-pottery-special-hbo-max.webp)
 
