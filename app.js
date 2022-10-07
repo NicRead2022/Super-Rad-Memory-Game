@@ -1,12 +1,3 @@
-// const gameGrid = 
-// I need to name the gameGrid
-// I need to assign each box a name
-// I need to assign each box 'click' event Listener
-// I need to assign the box a function once the click occurs
-// when the function happens I need a picture of the wizard to appear
-
-
-
 const cardHP ={
   text: "Harry Potter"
 }
@@ -36,11 +27,11 @@ let R2C1 = document.getElementById("2,1")
 
 const checkMatch = () => {
 if(userSelection.length >= 2){
-  console.log(userSelection[0].textContent, userSelection[1].textContent)
+ 
   if(userSelection[0].textContent === userSelection[1].textContent){
     alert("MATCH")
     userSelection.length = 0
-    console.log(userSelection)
+    
   } else{
     alert("NOT A MATCH")
     //refactored following code to be a function instead of hard code
